@@ -19,7 +19,7 @@ public class Main {
         }
 
         int[][] newArrayOfIntegers = swapRowsWithColumns(arrayOfIntegers);
-        ArrayUtils.writeArrayToFile(inputParams.getOutputFile(), swapRowsWithColumns(arrayOfIntegers));
+        ArrayUtils.writeArrayToFile(inputParams.getOutputFile(), newArrayOfIntegers);
         printArrayOfIntegers(newArrayOfIntegers);
     }
 
